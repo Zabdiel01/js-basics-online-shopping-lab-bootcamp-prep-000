@@ -70,6 +70,7 @@ function placeOrder(cardNumber) {
     console.log("Your total cost is $"+total()+", which will be charged to the card "+cardNumber+".")
     cart = []
   } else {
-    return "Sorry, we don\'t have a credit card on file for you."
+    console.log("Sorry, we don\'t have a credit card on file for you.")
+    return cart
   }
 }
